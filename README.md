@@ -1,2 +1,2 @@
 # Project-1
-First group project
+## Members: Gayathiri, Solomon, Peter
