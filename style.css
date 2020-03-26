@@ -1,0 +1,32 @@
+/*  =============== Global rules =============== */
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  background: #246;
+  font-size: 2rem;
+}
+
+input {
+  display: block;
+  padding: 0.8rem 1.2rem;
+}
+
+/*  =============== Homepage =============== */
+
+h1 {
+  text-align: center;
+}
+
+.button-primary,
+input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
