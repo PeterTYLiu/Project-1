@@ -4,5 +4,5 @@ First group project
 
 ## Team Members
 * Peter
-* Solomen
+* Solomon
 * Gayathiri
