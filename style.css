@@ -10,7 +10,12 @@ nav {
   text-align: center;
   color: white;
   background: #246;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-family: "Pacifico", cursive;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 10000;
 }
 
 input {
@@ -18,10 +23,15 @@ input {
   padding: 0.8rem 1.2rem;
 }
 
+#main {
+  margin-top: 5rem;
+}
+
 /*  =============== Homepage =============== */
 
 h1 {
   text-align: center;
+  padding: 3rem 2rem;
 }
 
 .button-primary,
@@ -29,4 +39,69 @@ input {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+/*  =============== Listing Page =============== */
+
+.card {
+  margin: 2rem 10px;
+  padding: 2rem;
+  border-radius: 1rem;
+  background: #e3e3e3;
+}
+
+.cardHeader {
+  border-bottom: 1px solid #aaa;
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
+}
+
+.cardHeader h6,
+.cardHeader img {
+  display: inline;
+  font-size: 2rem;
+}
+
+.cardHeader img,
+.cardHeader span {
+  float: right;
+}
+
+div.container {
+  width: 100% !important;
+  padding: 0% !important;
+}
+
+.cardBody img {
+  width: 100%;
+}
+/*  =============== Footers =============== */
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.footer-button {
+  padding: 2rem 0rem;
+  text-align: center;
+  width: 50%;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+  background: #555;
+  cursor: pointer;
+  user-select: none;
+}
+
+.footer-button:hover {
+  border: 3px #ffffff90;
+}
+
+.footer-button-active {
+  background: #246;
+  font-weight: bold;
 }
