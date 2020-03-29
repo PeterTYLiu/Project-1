@@ -15,6 +15,12 @@ First group project
 
 # This app use external API  to get the live weather data from OpenWeatherMap, also it uses another external Spoonacular API to get receipe and ingridents.
 
+
+# ![Home](image/home.jpg)
+# ![City Not Found](image/City_not_found.jpg)
+# ![Five day meal based on weather](image/five_day_meal.jpg)
+# ![Shopping list](image/shopping_list.jpg)
+
 # URL :  https://petertyliu.github.io/Project-1/
 
 # Links to slide :  https://docs.google.com/presentation/d/1ZVGMK614O_E8KSePSx5zj1zkrzNc_vhAOg0dqGGNJ0c/edit#slide=id.g826c440a7f_0_6
