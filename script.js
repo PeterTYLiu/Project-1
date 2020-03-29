@@ -209,7 +209,7 @@ function fetchWeatherInfo() {
   let mealPrep = { city: userInput, days: [], shoppingList: {} };
 
   fetch(
-    `https:api.openweathermap.org/data/2.5/forecast?q=${userInput}&appid=${apiKey}`
+    `https://api.openweathermap.org/data/2.5/forecast?q=${userInput}&appid=${apiKey}`
   )
     .then(response => response.json())
     .then(forecast => {
